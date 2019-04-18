@@ -1,4 +1,4 @@
-#!/bin/sh
+Onlyforchrist128@gmail.com #!/bin/sh
 #/
 #/ NAME:
 #/ delete-empty-repos - For a GitHub Enterprise Instance, lists every empty repository
@@ -254,7 +254,6 @@ if [[ $ERROR_COUNT -gt 0 ]]; then
   echo "the script has completed, there were errors"
   exit $ERROR_COUNT
 fi
-
 if [[ ${EXECUTE} = "TRUE" ]]; then
   echo ""
   echo "Successfully deleted ${EMPTY_REPO_COUNTER} empty repos from ${ORG_NAME}."
